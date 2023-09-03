@@ -66,7 +66,7 @@ type SystemStatusData struct {
 	SmartInvDeltaP             float32         `json:"smart_inv_delta_p"`
 	SmartInvDeltaQ             float32         `json:"smart_inv_delta_q"`
 	LastToggleTimestamp        time.Time       `json:"last_toggle_timestamp"`
-	SolarRealPowerLimit        float32         `json:"solar_real_power_limit"`
+	SolarRealPowerLimit        float64         `json:"solar_real_power_limit"`
 	Score                      float32         `json:"score"`
 	BlocksControlled           int             `json:"blocks_controlled"`
 	Primary                    bool            `json:"primary"`
